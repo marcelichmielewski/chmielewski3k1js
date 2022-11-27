@@ -1,0 +1,31 @@
+<html>
+<head>
+   <title> Zadanie 9 Chmielewski </title>
+   </head>
+ <body>
+       <div style="color:red;font-size:50px;">
+        <script language="JavaScript">
+              var liczba1=prompt("dzien1=","");
+              var liczba2=prompt("dzien2=","");
+			  var godzina1=prompt("godzina1=","");
+			  var godzina2=prompt("godzina2=","");
+              var ile_sekund_chm;
+			  var ile_sekund2_chm;
+              var D1_chm=parseFloat(liczba1);
+              var D2_chm=parseFloat(liczba2);
+			  var G1_chm=parseFloat(godzina1);
+			  var G2_chm=parseFloat(godzina2);
+               ile_sekund_chm=(D1_chm-D2_chm)*24*3600;
+			   ile_sekund2_chm=(G1_chm-G2_chm)*60*3600;
+               document.write("dzien1="+D1_chm+"<br>");
+			   document.write("dzien2="+D2_chm+"<br>");
+			   document.write("godzina1="+G1_chm+"<br>");
+			   document.write("godzina2="+G2_chm+"<br>");
+			   document.write
+			   ("sekund="+ile_sekund_chm+" sekund"+"<br>");
+			   document.write
+			   ("sekund="+ile_sekund2_chm+" sekund"+"<br>");
+       </script>
+      </div>
+</body>
+</html>
